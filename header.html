@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>inicio</title>
+	
+<style type="text/css">
+	
+*{
+	margin: 0;padding: 0;
+}
+
+body{
+	background:#7FFFD4;
+
+}
+
+header{
+	width: 100%;
+	overflow: hidden;
+	background: #252932;
+	margin-bottom: 20px;
+	-webkit-transition:all 0.3s; 
+    -o-transition:all 0.3s ; 
+    transition:all 0.3s ; 
+	
+}
+
+.wrapper{
+	width: 90%;
+	max-width: 1000px;
+	margin: auto;
+	overflow: hidden;
+
+}
+
+header .logo{
+	color: #f2f2f2;
+	font-size: 50px;
+	line-height: 200px;
+	float: left;
+	-webkit-transition:all 0.3s; 
+    -o-transition:all 0.3s ; 
+    transition:all 0.3s ; 
+}
+
+header nav{
+	float: right;
+	line-height: 200px;
+	-webkit-transition:all 0.3s; 
+    -o-transition:all 0.3s ; 
+    transition:all 0.3s ; 
+}
+
+header nav a{
+	display: inline-block;
+	color: #fff;
+	text-decoration: none;
+	padding: 10px 20px;
+	line-height: normal;
+	font-size: 20px;
+	font-weight: bold;
+	-webkit-transition:all 500ms ease; 
+    -o-transition:all 500ms ease; 
+    transition:all 500ms ease; 
+}
+
+
+header nav a:hover{
+	background: #f56f3a;
+	border-radius: 50px;
+}
+
+.header2{
+
+	position: fixed;
+	height: 100px;
+
+
+}
+
+.header2 .logo{
+	line-height: 100px;
+	font-size: 30px;	
+
+
+}
+
+.header2 nav{
+	line-height: 100px;
+
+
+
+}
+
+/*.contenido{
+	padding-top: 110px;
+}*/
+
+.contenido p{
+	margin-bottom: 1em;
+}
+
+@media screen and (max-width: 950px){
+	header .logo,
+	header nav{
+		width: 100%;
+		text-align: center;
+		line-height: 100px;
+	}
+
+	.header2{
+		height: auto;
+	}
+
+	.header2 .logo,
+    .header2 nav{
+		line-height: 50px;
+	}
+}
+
+
+</style>
+<script type="text/javascript" src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+<script type="text/javascript">
+	
+
+$(document).ready(function() {
+  $(window).scroll(function() {
+  	if($(this).scrollTop()>0){
+       $('header').addClass('header2');
+       //$('header').fadeOut("slow");
+       //$('.header2').fadeIn("slow"); 
+      
+  	}else{
+  	 $('header').removeClass('header2');
+     //$('header').fadeIn("slow");
+    // $('.header2').fadeOut("slow"); 
+  	}
+  });	
+});
+
+
+</script>
+</head>
+<body>
+	<header>
+<div class="wrapper">
+	<div class="logo">Flconmast</div>
+	<nav>
+		<a href="#">inicio</a>
+		<a href="#">servicios</a>
+		<a href="#">proyectos</a>
+		<a href="#">contacto</a>
+	</nav>
+</div>
+   </header>
+ <section class="contenido wrapper">
+ <p>
+ 		Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero velit sed iste alias inventore debitis quaerat ab quis voluptate, ipsa repudiandae dolores accusantium quia, suscipit quos adipisci. Ad, recusandae nostrum.
+ 		Molestias laboriosam repellendus id asperiores officia, amet suscipit accusantium voluptate inventore, beatae fugit reiciendis, officiis impedit sed natus debitis, sit laborum ullam? Magni nam natus consectetur ab, architecto quia praesentium.
+ 		Quasi, beatae, laboriosam. Doloremque esse, molestiae nam, eligendi maxime perspiciatis et necessitatibus possimus, ullam, veritatis aliquam dicta magnam. Non magni earum minima voluptatem unde iure voluptatibus ipsam maxime. Error, earum.
+ 		Ipsam maiores maxime recusandae dicta enim eos repellat blanditiis natus alias iure vel sapiente, explicabo dolores, incidunt nostrum dolorum repudiandae voluptas fugiat quis nobis odit illo asperiores. Porro, vel, at?
+ 		Earum autem repellat accusamus, hic sequi obcaecati et labore totam esse, quidem, sapiente nulla. Eius sit ea facere suscipit amet consequatur, quibusdam expedita iure soluta magni asperiores iste itaque fugiat!
+ 	</p>
+ 	<p>
+ 		Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero velit sed iste alias inventore debitis quaerat ab quis voluptate, ipsa repudiandae dolores accusantium quia, suscipit quos adipisci. Ad, recusandae nostrum.
+ 		Molestias laboriosam repellendus id asperiores officia, amet suscipit accusantium voluptate inventore, beatae fugit reiciendis, officiis impedit sed natus debitis, sit laborum ullam? Magni nam natus consectetur ab, architecto quia praesentium.
+ 		Quasi, beatae, laboriosam. Doloremque esse, molestiae nam, eligendi maxime perspiciatis et necessitatibus possimus, ullam, veritatis aliquam dicta magnam. Non magni earum minima voluptatem unde iure voluptatibus ipsam maxime. Error, earum.
+ 		Ipsam maiores maxime recusandae dicta enim eos repellat blanditiis natus alias iure vel sapiente, explicabo dolores, incidunt nostrum dolorum repudiandae voluptas fugiat quis nobis odit illo asperiores. Porro, vel, at?
+ 		Earum autem repellat accusamus, hic sequi obcaecati et labore totam esse, quidem, sapiente nulla. Eius sit ea facere suscipit amet consequatur, quibusdam expedita iure soluta magni asperiores iste itaque fugiat!
+ 	</p>
+ 	<p>
+ 		Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero velit sed iste alias inventore debitis quaerat ab quis voluptate, ipsa repudiandae dolores accusantium quia, suscipit quos adipisci. Ad, recusandae nostrum.
+ 		Molestias laboriosam repellendus id asperiores officia, amet suscipit accusantium voluptate inventore, beatae fugit reiciendis, officiis impedit sed natus debitis, sit laborum ullam? Magni nam natus consectetur ab, architecto quia praesentium.
+ 		Quasi, beatae, laboriosam. Doloremque esse, molestiae nam, eligendi maxime perspiciatis et necessitatibus possimus, ullam, veritatis aliquam dicta magnam. Non magni earum minima voluptatem unde iure voluptatibus ipsam maxime. Error, earum.
+ 		Ipsam maiores maxime recusandae dicta enim eos repellat blanditiis natus alias iure vel sapiente, explicabo dolores, incidunt nostrum dolorum repudiandae voluptas fugiat quis nobis odit illo asperiores. Porro, vel, at?
+ 		Earum autem repellat accusamus, hic sequi obcaecati et labore totam esse, quidem, sapiente nulla. Eius sit ea facere suscipit amet consequatur, quibusdam expedita iure soluta magni asperiores iste itaque fugiat!
+ 	</p>
+ 	<p>
+ 		Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero velit sed iste alias inventore debitis quaerat ab quis voluptate, ipsa repudiandae dolores accusantium quia, suscipit quos adipisci. Ad, recusandae nostrum.
+ 		Molestias laboriosam repellendus id asperiores officia, amet suscipit accusantium voluptate inventore, beatae fugit reiciendis, officiis impedit sed natus debitis, sit laborum ullam? Magni nam natus consectetur ab, architecto quia praesentium.
+ 		Quasi, beatae, laboriosam. Doloremque esse, molestiae nam, eligendi maxime perspiciatis et necessitatibus possimus, ullam, veritatis aliquam dicta magnam. Non magni earum minima voluptatem unde iure voluptatibus ipsam maxime. Error, earum.
+ 		Ipsam maiores maxime recusandae dicta enim eos repellat blanditiis natus alias iure vel sapiente, explicabo dolores, incidunt nostrum dolorum repudiandae voluptas fugiat quis nobis odit illo asperiores. Porro, vel, at?
+ 		Earum autem repellat accusamus, hic sequi obcaecati et labore totam esse, quidem, sapiente nulla. Eius sit ea facere suscipit amet consequatur, quibusdam expedita iure soluta magni asperiores iste itaque fugiat!
+ 	</p>
+ 	<p>
+ 		Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero velit sed iste alias inventore debitis quaerat ab quis voluptate, ipsa repudiandae dolores accusantium quia, suscipit quos adipisci. Ad, recusandae nostrum.
+ 		Molestias laboriosam repellendus id asperiores officia, amet suscipit accusantium voluptate inventore, beatae fugit reiciendis, officiis impedit sed natus debitis, sit laborum ullam? Magni nam natus consectetur ab, architecto quia praesentium.
+ 		Quasi, beatae, laboriosam. Doloremque esse, molestiae nam, eligendi maxime perspiciatis et necessitatibus possimus, ullam, veritatis aliquam dicta magnam. Non magni earum minima voluptatem unde iure voluptatibus ipsam maxime. Error, earum.
+ 		Ipsam maiores maxime recusandae dicta enim eos repellat blanditiis natus alias iure vel sapiente, explicabo dolores, incidunt nostrum dolorum repudiandae voluptas fugiat quis nobis odit illo asperiores. Porro, vel, at?
+ 		Earum autem repellat accusamus, hic sequi obcaecati et labore totam esse, quidem, sapiente nulla. Eius sit ea facere suscipit amet consequatur, quibusdam expedita iure soluta magni asperiores iste itaque fugiat!
+ 	</p>	
+ </section>
+</body>
+</html>
